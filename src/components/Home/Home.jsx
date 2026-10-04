@@ -16,9 +16,7 @@ export default function Home() {
         <Button title="Entre em contato" variant='btn' nomeBtn='nomeBtn' />
       </main>
       <Projetos />
-
       <Footer />
-      
     </>
   );
 }
