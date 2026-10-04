@@ -1,14 +1,17 @@
+@import url('https://googleapis.com');
+
 :root {
   --background: #0D3942;
   --text: #CCF6FF;
   --box-shadow: -1px 0px 17px 3px rgba(0, 0, 0, 0.58);
-  --font: 'Inter';
+  --font: 'Inter', sans-serif;
 }
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
 }
 
 body {

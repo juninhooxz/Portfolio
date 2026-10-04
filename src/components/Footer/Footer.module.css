@@ -7,7 +7,7 @@
 }
 
 .copy {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: var(--font);
     font-size: 1rem;
     margin: 20px;
 }
