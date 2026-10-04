@@ -1,0 +1,37 @@
+.containerLogos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 30px;
+}
+
+.logoReact {
+    width: 40px;
+    height: 40px;
+}
+
+.logoTypescript {
+    width: 40px;
+    height: 40px;
+}
+
+.containerReact {
+    text-align: center;
+    cursor: pointer;
+    transition: 0.9s;
+}
+
+.containerTypescript {
+    text-align: center;
+    cursor: pointer;
+    transition: 0.9s;
+}
+
+.containerReact:hover {
+    transform: translateY(-10px);
+}
+
+.containerTypescript:hover {
+    transform: translateY(-10px);
+}

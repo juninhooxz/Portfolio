@@ -1,0 +1,26 @@
+.btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    width: 350px;
+    text-align: center;
+    background-color: var(--text);
+    border: none;
+    border-radius: 15px;
+    transition: 0.3s;
+    text-decoration: none;
+}
+
+.nomeBtn {
+    color: #000;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+
+.btn:hover {
+    background-color: #ccf6ff8e;
+    transform: scale(1.02);
+    cursor: pointer;
+}

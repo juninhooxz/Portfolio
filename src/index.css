@@ -1,0 +1,28 @@
+:root {
+  --background: #0D3942;
+  --text: #CCF6FF;
+  --box-shadow: -1px 0px 17px 3px rgba(0, 0, 0, 0.58);
+  --font: 'Inter';
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--background);
+  background-image:
+    linear-gradient(#e7e7e70c 1px, transparent 1px),
+    linear-gradient(90deg, #fcfcfc1c 1px, transparent 1px );
+  background-size: 20px 20px;
+  position: relative;
+}
+
+html {
+  scroll-behavior: smooth;
+}

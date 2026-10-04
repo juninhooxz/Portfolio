@@ -1,0 +1,116 @@
+.container {
+  padding: 20px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 2fr));
+  gap: 2rem;
+  max-width: 1000px;
+  z-index: 999;
+  margin-bottom: 200px;
+}
+
+.imgProjeto {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  object-fit: cover;
+  text-align: center;
+}
+
+
+.cardProjeto {
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 16px;
+  backdrop-filter: blur(5px);
+  border: 1px solid var(--vidro);
+  overflow: hidden;
+  transition: all 0.5s ease;
+  cursor: pointer;
+  padding: 10px;
+  grid-row: 1 / 2;
+}
+
+.cardProjeto:hover {
+  box-shadow: 0 10px 20px rgba(245, 245, 247, 0.103);
+  transform: translateY(-10px) scale(1.01);
+  z-index: 1;
+}
+.cardProjetos {
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 16px;
+  backdrop-filter: blur(5px);
+  border: 1px solid var(--vidro);
+  overflow: hidden;
+  transition: all 0.5s ease;
+  cursor: pointer;
+  grid-column: 2/ 4;
+}
+
+.cardProjetos:hover {
+  box-shadow: 0 10px 20px rgba(245, 245, 247, 0.103);
+  transform: translateY(-10px) scale(1.01);
+  z-index: 1;
+}
+
+.cardProjeto2 {
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 16px;
+  backdrop-filter: blur(5px);
+  border: 1px solid var(--vidro);
+  overflow: hidden;
+  transition: all 0.5s ease;
+  cursor: pointer;
+  padding: 10px;
+}
+
+.cardProjeto2:hover {
+  box-shadow: 0 10px 20px rgba(245, 245, 247, 0.103);
+  transform: translateY(-10px) scale(1.01);
+  z-index: 1;
+}
+.cardProjeto3 {
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 16px;
+  backdrop-filter: blur(5px);
+  border: 1px solid var(--vidro);
+  overflow: hidden;
+  transition: all 0.5s ease;
+  cursor: pointer;
+  padding: 10px;
+}
+.cardProjeto3:hover {
+  box-shadow: 0 10px 20px rgba(245, 245, 247, 0.103);
+  transform: translateY(-10px) scale(1.01);
+  z-index: 1;
+}
+.cardProjeto4 {
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 16px;
+  backdrop-filter: blur(5px);
+  border: 1px solid var(--vidro);
+  overflow: hidden;
+  transition: all 0.5s ease;
+  cursor: pointer;
+  padding: 10px;
+}
+.cardProjeto4:hover {
+  box-shadow: 0 10px 20px rgba(245, 245, 247, 0.103);
+  transform: translateY(-10px) scale(1.01);
+  z-index: 1;
+}
+
+
+.tituloProjeto {
+  text-align: center;
+  padding: 20px;
+  color: var(--text);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin-bottom: 10px;
+}
+
+.infoProjeto {
+  padding: 10px;
+  color: var(--text);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+}

@@ -1,0 +1,22 @@
+.containerFooter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.copy {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1rem;
+    margin: 20px;
+}
+
+.footerDiv > p > a {
+    color: var(--text);
+}
+
+.nomeDev {
+    color: #00ff6a;
+    font-weight: 800;
+}
